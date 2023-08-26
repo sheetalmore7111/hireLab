@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.75rem;
+    overflow-x: hidden;
+    color: black;
+    background-color: white;
+}
+
+header .nav-item a{
+    font-size: 1.2rem;
+    color:black;
+
+}
+
+/* Home Section  */
+
+.home .home-banner-1 {
+    background-image: url("Images/home\ banner\ img\ 3.jpg");
+}
+
+.home .home-banner-2 {
+    background-image: url("Images/home\ banner\ img2.jpg");
+}
+
+.home .home-banner-3 {
+    background-image: url("Images/home\ banner\ img1.jpg");
+}
+
+.home .home-banner-1,
+.home .home-banner-2,
+.home .home-banner-3 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; 
+}
+
+.home .home-banner-text{
+   position: relative;
+   top: 290px;
+}
+
+.home .home-banner-text p{
+    font-weight: 700;
+}
+
+.home .home-banner-text h1{
+    /* font-size: 50px; */
+    font-weight: 700;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home .btn{
+    border-radius: 25px;
+    /* padding:10px 15px;
+    margin: 5px; */
+}
+
+/* about us section  */
+
+.about .about-content h1{
+    font-size: 50px;
+    color: rgb(3, 3, 84);
+}
+
+
+.about .about-content p{
+    text-align: justify;
+}
+
+.about .about-content .icon img{
+    border: 2px solid brown;
+    border-radius: 50px;
+    padding: 7px;
+}
+
+.about .about-content .icon h4{
+    color: rgb(2, 2, 56);
+    font-weight: 700;
+}
+
+/* images section  */
+/* #images .heading p{
+    font-size: 15px;
+}
+
+#images .heading h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: brown;
+}
+
+#images .img-card{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#images .img-card .img{
+    margin-bottom: 55px;
+    text-align: center;
+    box-shadow: 1px 1px 5px black;
+}
+
+#images .img-card .img-detail{
+    position: absolute;
+    bottom: -250px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 40px 16px;
+    transition: all 0.5s ease;
+    color: white;
+}
+
+#images .img-card:hover .img-detail{
+    bottom: 0;
+} */
+
+/* card-section */
+/* .card-section {
+    background-color: gainsboro;
+
+}
+ 
+.card-section .container .cards{
+    border-radius: 10px;
+}
+
+.card-content .card{
+    width: 250px;
+    border-radius: 25px;
+    font-size: 12px;
+    margin: auto;
+}
+
+.card-content .card h4:hover{
+    margin-left: 15px;
+    transition: all 0.5s ease;
+} */
+
+/* banner section  */
+
+.banner-section{
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: gainsboro;
+    padding: 25px;
+}
+
+/* Traning Section  */
+.inter .title{
+    padding: 35px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.inter .title h1{
+    font-size: 55px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.inter .traning-card i{
+    font-size: 40px;
+    color: brown;
+}
+
+
+/* footer section  */
+
+footer .icon-link a{
+    text-decoration: none;
+}
+
+footer a i{
+    font-size: 20px;
+    margin-left: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 30px ;
+    background-color: black;
+    color: white;
+}
+
+footer a i:hover{
+    background-color: white;
+    transition: 1s ease-in-out;
+    color: black;
+}
+.footer-info{
+    text-align: center;
+}
+
+
+/* About page Coding  */
+.about-section,
+.contact-section{
+    height: 100vh;
+    background-image: url('Images/about-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-section .about-title,
+.contact-section .contact-title{
+   margin-top: 150px;
+   line-height: 30px;
+   font-size: 20px;
+   font-weight: 400;
+}
+
+.about-section .about-title h1,
+.contact-section .contact-title h1{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about-section .about-title p,
+.contact-section .contact-title p{
+    color: rgb(8, 8, 58);
+    font-weight: 500;
+    text-align: justify;
+}
+
+.about-card{
+    box-shadow: 1px 2px 5px gray;
+}
+
+
+/* Service  page coding */
+
+article{
+    width: 100%;
+    height: 100vh;
+    background-image: url("Images/home\ banner\ img\ 3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+/* our service section   */
+
+.inter{
+    width: 100%;
+    background: #e6e6e6;
+    font-size: 0.9rem;
+}
+
+#service-count{
+    width: 100%;
+    background: #e6e6e6;
+}
+
+#like{
+    width: 100%;
+    font-size: 0.8rem;
+}
+
+#service-count p{
+    font-family:'Times New Roman', Times, serif
+    
+}
+
+#service-count img{
+    border: 3px solid rgb(132, 3, 3);
+    border-radius: 50px;
+    padding: 10px;
+}
+
+#service-count img:hover{
+    background-color: white;
+    transition: 2s;
+}
+
+
+.card:hover{
+   box-shadow: 1px 1px 5px black;
+   transition-duration: 1s; 
+}
+
+#form input{
+    border-radius: 25px;
+}
+
+
+
+
+
+/* navbar section  */
+ @media (max-width:768px) and (min-width:400px){
+
+    header .navbar .nav-item a{
+        font-size: 16px;
+    }
+    
+}
+
+/* home section  */
+@media (max-width:1440px) and (min-width:1024px){
+    .home .home-banner-1,
+    .home .home-banner-2,
+    .home .home-banner-3 {
+        background-position: center;
+        min-height: 100%;
+    }
+
+    .home .home-banner-text{
+        position: relative;
+        top: 250px;
+    }
+
+    .home .home-banner-text h1{
+        font-size: 40px;
+    }
+
+ 
+    
+}
+
+@media (max-width:1000px) and (min-width:600px){
+    .home .home-banner-1,
+    .home .home-banner-2,
+    .home .home-banner-3 {
+        background-position: center;
+        min-height: 100%;
+    }
+
+    .home .home-banner-text{
+        position: relative;
+        top: 250px; 
+    }
+
+    /* .home .home-banner-text h1{
+        font-size: 50px;
+    } */
+}
+
+@media (max-width:600px) and (min-width:400px){
+    .home .home-banner-text h1{
+        font-size: 35px;
+    }
+
+    
+}
+
+@media (min-width:300px){
+    .home .home-banner-1,
+    .home .home-banner-2,
+    .home .home-banner-3 {
+        background-position: center;
+        min-height: 100%;
+    }
+
+    /* .home .home-banner-text h1{
+        font-size: 25px;
+    } */
+
+    /* .home .home-banner-text .btn{
+        font-size: 10px;
+
+    } */
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
