@@ -61,8 +61,6 @@ header .nav-item a{
 
 .home .btn{
     border-radius: 25px;
-    /* padding:10px 15px;
-    margin: 5px; */
 }
 
 /* about us section  */
@@ -188,7 +186,6 @@ footer .icon-link a{
 
 footer a i{
     font-size: 20px;
-    margin-left: 10px;
     border: 2px solid black;
     padding: 10px;
     border-radius: 30px ;
@@ -225,7 +222,6 @@ footer a i:hover{
 
 .about-section .about-title h1,
 .contact-section .contact-title h1{
-    font-size: 60px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -254,10 +250,9 @@ article{
 
 /* our service section   */
 
-.inter{
+.service{
     width: 100%;
     background: #e6e6e6;
-    font-size: 0.9rem;
 }
 
 #service-count{
@@ -265,7 +260,7 @@ article{
     background: #e6e6e6;
 }
 
-#like{
+#content{
     width: 100%;
     font-size: 0.8rem;
 }
@@ -292,25 +287,23 @@ article{
    transition-duration: 1s; 
 }
 
+
 #form input{
     border-radius: 25px;
 }
 
-
-
-
-
-/* navbar section  */
- @media (max-width:768px) and (min-width:400px){
-
-    header .navbar .nav-item a{
-        font-size: 16px;
-    }
-    
+/* contact page  */
+.contact .card{
+    margin-top: 95px;
 }
 
-/* home section  */
+
+
+
+
+
 @media (max-width:1440px) and (min-width:1024px){
+/* home section  */
     .home .home-banner-1,
     .home .home-banner-2,
     .home .home-banner-3 {
@@ -325,13 +318,82 @@ article{
 
     .home .home-banner-text h1{
         font-size: 40px;
+    } 
+    
+    /* service section  */
+    .header img {
+        background-position: center;
+        min-height: 100%;
+    }
+}
+
+
+@media (max-width:1024px){
+    /* home section page */
+    .card-4{
+        height: 180px;
     }
 
- 
+    /*Training Section*/
+    .inter .traning-card i{
+        position: relative;
+        right: 15px;
+    }
+
+    /* About Page  */
+    .about-section .about-title{
+        margin-top: 100px;
+    }
+
+    /* contact page  */
+    .contact-section .contact-title{
+        margin-top: 100px;
+    }
+
+    .contact-section .contact-title h1{
+        font-size: 60px;
+    }
+
+    .contact-section .contact-title p{
+        font-size: 25px;
+        line-height: 35px;
+        color: aliceblue;
+    }
+
+
+}
+
+/* navbar section  */
+@media (max-width:768px) and (min-width:400px){
+
+    header .navbar .nav-item a{
+        font-size: 16px;
+    }
+
+    .service .card-2{
+        padding: 10px;
+    }
+
+    /* service  */
+    #content .sub-content{
+        padding-right: 50px;
+    }
+
+    /* about page  */
+    .about-section .about-title p{
+        color:rgb(245, 245, 248);
+    }
+
+    .about-section .about-card{
+        margin: 10px;
+    }
     
 }
 
-@media (max-width:1000px) and (min-width:600px){
+
+
+@media (max-width:1024px) and (min-width:600px){
+/* home section  */
     .home .home-banner-1,
     .home .home-banner-2,
     .home .home-banner-3 {
@@ -344,20 +406,43 @@ article{
         top: 250px; 
     }
 
-    /* .home .home-banner-text h1{
-        font-size: 50px;
-    } */
-}
-
-@media (max-width:600px) and (min-width:400px){
-    .home .home-banner-text h1{
-        font-size: 35px;
+/* service section  */
+    .header img {
+        background-position: center;
+        min-height: 100%;
     }
 
-    
+    article h1{
+        text-align: center;
+        color: white;
+        position: relative;
+        bottom: 150px;
+    }
+
+    article h5 {
+        position: relative;
+        bottom:130px;
+        text-align: center;
+    }
+
+    article p{
+        position: relative;
+        bottom:120px;
+        text-align: center;
+    }
+
 }
 
-@media (min-width:300px){
+@media (max-width:600px) and (min-width:300px){
+/* home section  */
+    .home .home-banner-text h1{
+        font-size: 30px;
+    }
+
+    .home .home-banner-text p{
+        color: white;
+    }
+
     .home .home-banner-1,
     .home .home-banner-2,
     .home .home-banner-3 {
@@ -365,16 +450,129 @@ article{
         min-height: 100%;
     }
 
-    /* .home .home-banner-text h1{
-        font-size: 25px;
-    } */
+    .home .home-banner-text{
+        position: relative;
+        top: 240px; 
+    }
 
-    /* .home .home-banner-text .btn{
+    .home .home-banner-text .btn{
         font-size: 10px;
+    }
 
-    } */
-}
- 
+    
+    .inter .title{
+        text-align: center;
+        position: relative;
+        right: 55px;
+    }
+
+    .inter .title p{
+        font-size: 17px;
+    }
+
+
+    .inter .title h1{
+        font-size: 40px;
+    }
+
+/* service section  */
+    .header img {
+        background-position: center;
+        min-height: 100%;
+    }
+
+    article h1{
+        text-align: center;
+        color: white;
+        position: relative;
+        bottom: 150px;
+    }
+
+    article h5 {
+        position: relative;
+        bottom:130px;
+        text-align: center;
+    }
+
+    article p{
+        position: relative;
+        bottom:120px;
+        text-align: center;
+    }
+
+    #content .sub-content{
+        padding-right: 50px;
+    }
+
+    /* about page  */
+    .about-section .about-title h1{
+        font-size: 45px;
+    }
+
+    .about-section,
+    .contact-section{
+        background-position: center;
+        height: 100vh;
+        color: rgb(19, 19, 183);
+    }
+
+    .about-section .about-title h1{
+        font-size: 35px;
+        position: relative;
+        bottom: 80px;
+    }
+
+    .about-section .about-title p{
+        font-size: 15px;
+        position: relative;
+        bottom: 100px;
+        line-height: 25px;
+    }
+
+    .contact-section .contact-title h1{
+        font-size: 40px;
+        color: black;
+    }
+
+    .contact-section .contact-title p{
+        font-size: 16px;
+    }
+
+ }
+
+ @media (min-width:425px){
+    /* about page  */
+    .about-section .about-title h1{
+        font-size: 35px;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .about-section .about-title p
+    .contact-section .contact-title p{
+        font-size: 18px;
+        position: relative;
+        bottom: 50px;
+    }
+
+    /* contact page  */
+    .contact-section .contact-title h1{
+        font-size: 45px;
+        color: black;
+    }
+
+    .contact-section .contact-title p{
+        font-size: 18px;
+    }
+    
+ }
+
+
+
+
+
+
+
 
 
 
